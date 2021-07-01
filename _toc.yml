@@ -1,0 +1,7 @@
+format: jb-book
+root: landing_page.md
+chapters:
+- file: malo_o_meni1
+- file: malo_o_meni2
+- file: heronov_obrazec
+- file: pitagorov_izrek
