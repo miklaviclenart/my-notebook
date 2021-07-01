@@ -1,7 +1,11 @@
 format: jb-book
 root: landing_page.md
-chapters:
-- file: malo_o_meni1
-- file: malo_o_meni2
-- file: heronov_obrazec
-- file: pitagorov_izrek
+parts:
+- caption: Nekaj o meni
+  chapters:
+  - file: malo_o_meni1
+  - file: malo_o_meni2
+- caption: Malo matematike
+  chapters:
+  - file: heronov_obrazec
+  - file: pitagorov_izrek
