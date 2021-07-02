@@ -7,7 +7,8 @@
 * Poved "Dva je liho število." je neresnična izjava.
 * Vprašalna poved "Ali je dva sodo število?" **ni** izjava.
 * Velelna poved "Izračunaj vsoto prvih 100 naravnih števil!" **ni** izjava.
-* Vzemimo poved "Ta povéd ni resnična". Če bi bila resnična, bi bilo res, kar trdi sama o sebi – torej bi bila neresnična; in če bi bila neresnična, bi bila laž, kar trdi sama o sebi – torej bi bila resnična. Zato ta povéd ni izjava.
+* Vzemimo poved "Ta povéd ni resnična". Če bi bila resnična, bi bilo res, kar trdi sama o sebi – torej bi bila neresnična; in če bi bila neresnična, bi bila laž,
+kar trdi sama o sebi – torej bi bila resnična. Zato ta povéd ni izjava.
 ```
 
 Izjave **po vsebini** delimo na:
@@ -113,3 +114,6 @@ Vprašajmo se še: Koliko je vseh možnih $n$-mestnih izjavnih veznikov? Vsak ta
 veznik podamo z njegovo resničnostno tabelo, ki vsebuje $2^n$ vrstic. Ker imamo v
 vsaki vrstici za vrednost veznika dve možnosti (0 ali 1), je število vseh $n$-mestnih
 izjavnih veznikov enako $2^{2^n}$, kar je izredno hitro rastoča funkcija argumenta $n$.
+
+term
+: definition
