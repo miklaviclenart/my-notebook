@@ -9,3 +9,6 @@ parts:
   chapters:
   - file: heronov_obrazec
   - file: pitagorov_izrek
+- caption: Predikatni račun
+  chapters:
+  - file: 11_izjave
