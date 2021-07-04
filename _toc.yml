@@ -1,18 +1,17 @@
 format: jb-book
-root: landing_page.md
+root: landing_page
 parts:
 - caption: Nekaj o meni
-  numbered: true
   chapters:
   - file: malo_o_meni1
   - file: malo_o_meni2
   - file: malo_o_meni_epilog
 - caption: Malo matematike
-  numbered: true
   chapters:
+  - file: metoda_ostrega_pogleda
   - file: heronov_obrazec
   - file: pitagorov_izrek
+  - file: kvadrat
 - caption: Predikatni račun
-  numbered: true
   chapters:
   - file: 11_izjave
