@@ -85,20 +85,10 @@ podamo s tabelo resničnostnih vrednosti pri vseh $2^n$ možnih argumentih, ki j
 imenujemo _resničnostna tabela_ veznika. Resničnostne tabele negacije, konjunkcije,
 disjunkcije, implikacije in ekvivalence so naslednje:
 
-<table>
-  <tr>
-    <th> $p$ </th>
-    <th> $\neg p$ </th>
-  </tr>
-  <tr>
-    <td style="text-align:center"> 1 </td>
-    <td style="text-align:center"> 0 </td>
-  </tr>
-  <tr>
-    <td style="text-align:center"> 0 </td>
-    <td style="text-align:center"> 1 </td>
-  </tr>
-</table>
+$p$  | $\neg p$
+:---:|:--------:
+1    |  0
+0    |  1
 
 $p, q$  |   $p \land q$ |   $p \lor q$  |   $p \implies q$  |   $p \iff q$
 :------:|:-------------:|:-------------:|:-----------------:|:-------------:
