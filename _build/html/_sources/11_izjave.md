@@ -1,6 +1,7 @@
 # Izjave in izjavni vezniki
 
-> **_Neformalna definicija._** V klasični logiki z besedo _izjava_ označujemo pripovedno povéd, ki je bodisi resnična bodisi neresnična.
+> Neformalna definicija
+> : V klasični logiki z besedo _izjava_ označujemo pripovedno povéd, ki je bodisi resnična bodisi neresnična.
 
 ```{admonition} Zgled 1
 * Poved "Ena in ena je dva." je resnična izjava.
@@ -41,7 +42,8 @@ V gornjem zgledu sta izjavna veznika 'in' ter 'če – potem' dvomestna, veznik 
 je enomesten. V splošnem lahko z $n$-mestnim izjavnim veznikom, kjer je $n$ neko
 naravno število, $n$ poljubnih izjav povežemo v novo izjavo.
 
-**_Zahteva._** Resničnostna vrednost sestavljene izjave sme biti odvisna le od uporabljenega izjavnega veznika in od resničnostnih vrednosti izjav, ki jo sestavljajo.
+Zahteva
+: Resničnostna vrednost sestavljene izjave sme biti odvisna le od uporabljenega izjavnega veznika in od resničnostnih vrednosti izjav, ki jo sestavljajo.
 
 To med drugim pomeni, da ni vsak slovnični veznik tudi izjavni veznik.
 
@@ -55,8 +57,9 @@ sestavnima deloma obstaja vzročna zveza ali ne.
 
 Po gornji zahtevi je resničnostna vrednost sestavljene izjave enolično določena
 z resničnostnimi vrednostmi njenih sestavnih delov, zato lahko izjavni veznik definiramo kot neko preslikavo oziroma funkcijo:
-> **_Definicija 1_** Naj bo $n$ naravno število. Preslikavo, ki vsaki urejeni $n$-terici, sestavljeni iz ničel in enojk,
-> priredi vrednost 0 ali 1, imenujemo $n$-mestni izjavni veznik ali tudi _Boolova funkcija_ $n$ spremenljivk.
+> Definicija 1
+> : Naj bo $n$ naravno število. Preslikavo, ki vsaki urejeni $n$-terici, sestavljeni iz ničel in enojk,
+priredi vrednost 0 ali 1, imenujemo $n$-mestni izjavni veznik ali tudi _Boolova funkcija_ $n$ spremenljivk.
 
 Definicijsko območje $n$-mestnega izjavnega veznika je torej množica vseh urejenih $n$-teric, sestavljenih iz ničel in enojk, ki ima $2^n$
 elementov. Naštejmo nekaj
@@ -82,10 +85,20 @@ podamo s tabelo resničnostnih vrednosti pri vseh $2^n$ možnih argumentih, ki j
 imenujemo _resničnostna tabela_ veznika. Resničnostne tabele negacije, konjunkcije,
 disjunkcije, implikacije in ekvivalence so naslednje:
 
-$p$ | $\neg p$
-:--:|:---------:
-1   |   0
-0   |   1
+<table>
+  <tr>
+    <th> $p$ </th>
+    <th> $\neg p$ </th>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 1 </td>
+    <td style="text-align:center"> 0 </td>
+  </tr>
+  <tr>
+    <td style="text-align:center"> 0 </td>
+    <td style="text-align:center"> 1 </td>
+  </tr>
+</table>
 
 $p, q$  |   $p \land q$ |   $p \lor q$  |   $p \implies q$  |   $p \iff q$
 :------:|:-------------:|:-------------:|:-----------------:|:-------------:
