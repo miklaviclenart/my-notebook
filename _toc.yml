@@ -12,6 +12,6 @@ parts:
   - file: heronov_obrazec
   - file: pitagorov_izrek
   - file: kvadrat
-- caption: Predikatni račun
+- caption: Izjavni račun
   chapters:
   - file: 11_izjave
